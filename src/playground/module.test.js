@@ -18,8 +18,8 @@ describe("Module test", () => {
   });
 
   it("Class Calculator.multiply with CommonJs should return true", () => {
-    var calculate = new calculator()
-    var result = calculate.multiply(1, 3);
+    let calculate = new calculator();
+    let result = calculate.multiply(1, 3);
     expect(result).toEqual(3);
   });
 });
