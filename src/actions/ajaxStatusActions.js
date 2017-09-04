@@ -1,3 +1,5 @@
-/**
- * Created by snuffykl on 04/09/2017.
- */
+import * as types from "./actionTypes";
+
+export function beginAjaxCall() {
+  return {type: types.BEGIN_AJAX_CALL};
+}

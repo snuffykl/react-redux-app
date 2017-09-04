@@ -18,7 +18,6 @@ class ManageCoursePage extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    debugger;
     if (this.props.course.id != nextProps.course.id) {
       this.setState({course: Object.assign({}, nextProps.course)});
     }
