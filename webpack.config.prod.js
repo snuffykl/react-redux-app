@@ -25,7 +25,7 @@ export default {
     new webpack.DefinePlugin(GLOBALS),
     new ExtractTextPlugin("styles.css"),
     new webpack.optimize.DedupePlugin(),
-    new webpack.optimize.UglifyPlugin()
+    new webpack.optimize.UglifyJsPlugin()
   ],
   module: {
     loaders: [
